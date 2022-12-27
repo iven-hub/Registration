@@ -6,12 +6,21 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/ic_person"
+        android:icon="@drawable/ic_security"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_person"
+        android:roundIcon="@drawable/input_bg"
         android:supportsRtl="true"
         android:theme="@style/Theme.Rgistration"
         tools:targetApi="31">
+
+
+        <activity
+            android:name=".User"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".Registration"
             android:exported="false">
@@ -36,7 +45,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

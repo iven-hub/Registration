@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Editar a conta"
+        android:id="@+id/Editar_conta"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_security"/>
+    <item android:title="Deletar a conta"
+        android:id="@+id/Deletar_conta"
+        app:showAsAction="never"/>
+    <item android:title="Log out"
+        android:id="@+id/LogOut_conta"
+        app:showAsAction="never"/>
+</menu>
